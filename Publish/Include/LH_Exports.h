@@ -8,5 +8,7 @@
 // Copyright (c) Carber Lee 
 //--------------------------------------------------------------------------------
 
-#include "stdafx.h"
-#include "LH_Log.h"
+#pragma once
+
+#define LHCOMMON_API extern "C"
+#define LHCOMMON_EXPORT

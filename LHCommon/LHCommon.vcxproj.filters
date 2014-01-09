@@ -30,6 +30,12 @@
     <ClInclude Include="..\Publish\Include\LH_Log.h">
       <Filter>Publish</Filter>
     </ClInclude>
+    <ClInclude Include="..\Publish\Include\LH_Exports.h">
+      <Filter>Publish</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Publish\Include\LH_BaseMacro.h">
+      <Filter>Publish</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -37,6 +43,9 @@
     </ClCompile>
     <ClCompile Include="LH_Log.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Publish\Include\ILH_LogStream.h">
+      <Filter>Publish</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
